@@ -1,0 +1,13 @@
+{
+  "name": "@wext/shipit",
+  "version": "0.0.0",
+  "license": "MIT",
+  "repository": "LinusU/wext-shipit",
+  "bin": "bin.js",
+  "dependencies": {
+    "chrome-webstore-upload-cli": "^1.1.1",
+    "dotenv": "^5.0.0",
+    "execa": "^0.9.0",
+    "neodoc": "^1.4.0"
+  }
+}
