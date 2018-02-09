@@ -8,9 +8,12 @@
     "chrome-webstore-upload-cli": "^1.1.1",
     "dotenv": "^5.0.0",
     "execa": "^0.9.0",
+    "fs-temp": "^1.1.2",
+    "globby": "^7.1.1",
     "neodoc": "^1.4.0",
     "ora": "^1.4.0",
     "text-stream-search": "^2.1.1",
+    "upload-opera-extension": "^1.0.0",
     "web-ext": "^2.4.0"
   }
 }
