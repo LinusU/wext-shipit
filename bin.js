@@ -5,11 +5,13 @@ require('dotenv').config()
 const neodoc = require('neodoc')
 
 const chrome = require('./lib/chrome')
+const firefox = require('./lib/firefox')
 const UserError = require('./lib/user-error')
 
 const usage = `
 Usage:
   shipit chrome <source>
+  shipit firefox <source>
 `
 
 async function main () {
@@ -17,6 +19,10 @@ async function main () {
 
   if (args.chrome) {
     await chrome(args['<source>'])
+  }
+
+  if (args.firefox) {
+    await firefox(args['<source>'])
   }
 }
 

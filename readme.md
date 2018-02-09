@@ -15,13 +15,16 @@ npm install --save @wext/shipit
 ```sh
 # Publish the "distribution/chrome-prod" folder to the Chrome WebStore
 shipit chrome distribution/chrome-prod
+
+# Publish the "distribution/firefox-prod" folder to Mozilla Addons (AMO)
+shipit firefox distribution/firefox-prod
 ```
 
 ## Implemented browsers
 
 | Feature | Chrome | Firefox | Safari | Opera | Edge |
 | ------- | :----: | :-----: | :----: | :---: | :--: |
-| `shipit` | ✅ | ❌ | ❌ | ❌ | ❌ |
+| `shipit` | ✅ | ✅ | ❌ | ❌ | ❌ |
 
 ## Credentials
 
@@ -37,3 +40,10 @@ We recommend placing the values in a `.env` file, and adding `.env` to your giti
 - `WEXT_SHIPIT_CHROME_REFRESH_TOKEN` - See `refreshToken` below
 
 Follow [this guide](https://developer.chrome.com/webstore/using_webstore_api) to generate `clientId`, `clientSecret` and `refreshToken`.
+
+### Firefox
+
+- `WEXT_SHIPIT_FIREFOX_JWT_ISSUER` - See "JWT issuer" below
+- `WEXT_SHIPIT_FIREFOX_JWT_SECRET` - See "JWT secret" below
+
+Go to [this site](https://addons.mozilla.org/en-GB/developers/addon/api/key/) and generate API Credentials. It will output "JWT issuer" and "JWT secret".

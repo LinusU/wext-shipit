@@ -8,6 +8,9 @@
     "chrome-webstore-upload-cli": "^1.1.1",
     "dotenv": "^5.0.0",
     "execa": "^0.9.0",
-    "neodoc": "^1.4.0"
+    "neodoc": "^1.4.0",
+    "ora": "^1.4.0",
+    "text-stream-search": "^2.1.1",
+    "web-ext": "^2.4.0"
   }
 }
