@@ -1,6 +1,6 @@
 {
   "name": "@wext/shipit",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "license": "MIT",
   "repository": "LinusU/wext-shipit",
   "bin": "bin.js",
