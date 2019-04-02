@@ -51,6 +51,8 @@ Follow [this guide](https://developer.chrome.com/webstore/using_webstore_api) to
 
 Go to [this site](https://addons.mozilla.org/en-GB/developers/addon/api/key/) and generate API Credentials. It will output "JWT issuer" and "JWT secret".
 
+Make sure that your extension id is specified in your manifest, [like shown here](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/browser_specific_settings).
+
 ### Opera
 
 - `WEXT_SHIPIT_OPERA_EMAIL` - Email address used to log in to addons.opera.com
