@@ -6,14 +6,17 @@
   "bin": "bin.js",
   "dependencies": {
     "chrome-webstore-upload-cli": "^1.1.1",
-    "dotenv": "^6.0.0",
-    "execa": "^0.10.0",
+    "dotenv": "^8.0.0",
+    "execa": "^1.0.0",
     "fs-temp": "^1.1.2",
-    "globby": "^8.0.1",
+    "globby": "^9.2.0",
     "neodoc": "^2.0.0",
-    "ora": "^2.1.0",
-    "text-stream-search": "^2.1.1",
-    "upload-opera-extension": "^1.0.1",
-    "web-ext": "^2.7.0"
+    "ora": "^3.4.0",
+    "text-stream-search": "^3.0.0",
+    "upload-opera-extension": "^1.0.2",
+    "web-ext": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=8"
   }
 }
