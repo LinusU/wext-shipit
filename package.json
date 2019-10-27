@@ -12,7 +12,7 @@
     "globby": "^9.2.0",
     "neodoc": "^2.0.0",
     "ora": "^3.4.0",
-    "text-stream-search": "^3.0.0",
+    "text-stream-search": "^4.0.0",
     "upload-opera-extension": "^1.0.2",
     "web-ext": "^3.0.0"
   },
