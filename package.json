@@ -6,15 +6,15 @@
   "bin": "bin.js",
   "dependencies": {
     "chrome-webstore-upload-cli": "^1.1.1",
-    "dotenv": "^8.0.0",
+    "dotenv": "^8.2.0",
     "execa": "^1.0.0",
     "fs-temp": "^1.1.2",
-    "globby": "^9.2.0",
+    "globby": "^10.0.1",
     "neodoc": "^2.0.0",
-    "ora": "^3.4.0",
-    "text-stream-search": "^4.0.0",
-    "upload-opera-extension": "^1.0.2",
-    "web-ext": "^3.0.0"
+    "ora": "^4.0.2",
+    "text-stream-search": "^4.0.2",
+    "upload-opera-extension": "^1.0.3",
+    "web-ext": "^3.2.0"
   },
   "engines": {
     "node": ">=8"
