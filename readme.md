@@ -51,10 +51,12 @@ Follow [this guide](https://developer.chrome.com/webstore/using_webstore_api) to
 
 Go to [this site](https://addons.mozilla.org/en-GB/developers/addon/api/key/) and generate API Credentials. It will output "JWT issuer" and "JWT secret".
 
+- `WEXT_SHIPIT_FIREFOX_EXTENSION_ID` - Optional. The id of the extension (can be specified here or in the manifest below)
+
 Make sure that your extension id is specified in your manifest, [like shown here](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/browser_specific_settings).
 
 ### Opera
 
 - `WEXT_SHIPIT_OPERA_EMAIL` - Email address used to log in to addons.opera.com
-- `WEXT_SHIPIT_OPERA_EXTENSION_ID` - ID of the extension (can be seen in the url in the developer dashboard)
+- `WEXT_SHIPIT_OPERA_EXTENSION_ID` - The id of the extension (can be seen in the url in the developer dashboard)
 - `WEXT_SHIPIT_OPERA_PASSWORD` - Password used to log in to addons.opera.com
